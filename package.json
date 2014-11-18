@@ -1,5 +1,5 @@
 {
-  "name": "nullable",
+  "name": "nullable-value",
   "version": "0.1.0",
   "description": "nullable wrapper for javascript type",
   "main": "index.js",
