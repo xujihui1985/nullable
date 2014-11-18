@@ -1,0 +1,19 @@
+{
+  "name": "nullable",
+  "version": "0.1.0",
+  "description": "nullable wrapper for javascript type",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "nullable"
+  ],
+  "author": "xujihui1985@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.1"
+  }
+}
