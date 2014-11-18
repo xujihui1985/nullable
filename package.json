@@ -4,13 +4,16 @@
   "description": "nullable wrapper for javascript type",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "make test"
   },
   "keywords": [
     "nullable"
   ],
-  "author": "xujihui1985@gmail.com",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xujihui1985/nullable.git"
+  },
+  "author": "Angry Sean <xujihui1985@gmail.com>",
   "devDependencies": {
     "chai": "^1.10.0",
     "istanbul": "^0.3.2",
