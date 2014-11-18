@@ -1,5 +1,7 @@
 # Nullable
 
+[![Build Status](https://drone.io/github.com/xujihui1985/nullable/status.png)](https://drone.io/github.com/xujihui1985/nullable/latest)
+
 **What**
 
 A tiny javascript wrapper the result which may be undefined or null
