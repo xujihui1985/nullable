@@ -28,3 +28,12 @@ describe('nullable', function () {
     expect(nullable).to.be.instanceOf(Nullable);
   });
 });
+
+describe('Entry point', function() {
+
+  it('should return nullable object if require index.js', function() {
+    var Nullable = require('../');
+    var nullable = new Nullable();
+    expect(nullable).to.be.instanceOf(Nullable);
+  });
+});
