@@ -6,7 +6,7 @@ MOCHAOPTIONS = --reporter spec \
 ISTANBULOPTIONS =  -- -R spec \
 				--timeout 30000 \
 
-ISTANBUL = node_modules/.bin/istanbul cover _mocha
+ISTANBUL = node_modules/.bin/istanbul cover -x *.test.js _mocha
 
 all: test
 

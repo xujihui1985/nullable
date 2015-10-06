@@ -4,9 +4,11 @@
   "version": "0.0.0-semantic-release",
   "main": "index.js",
   "scripts": {
-    "test": "make test",
+    "test": "make cover",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "report-coverage": "cat ./coverage/lcov.info | codecove"
   },
   "keywords": [
     "nullable"
@@ -17,11 +19,12 @@
   },
   "author": "Angry Sean <xujihui1985@gmail.com>",
   "devDependencies": {
-    "chai": "^1.10.0",
+    "chai": "^3.3.0",
+    "codecov.io": "^0.1.6",
     "commitizen": "^1.0.5",
     "cz-conventional-changelog": "^1.1.2",
-    "istanbul": "^0.3.2",
-    "mocha": "^2.0.1",
+    "istanbul": "^0.3.22",
+    "mocha": "^2.3.3",
     "semantic-release": "^4.3.5"
   },
   "czConfig": {
