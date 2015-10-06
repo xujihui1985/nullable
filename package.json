@@ -8,7 +8,7 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commit": "git-cz",
     "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
-    "report-coverage": "cat ./coverage/lcov.info | codecove"
+    "report-coverage": "cat ./coverage/coverage.json | codecove"
   },
   "keywords": [
     "nullable"
